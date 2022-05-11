@@ -12,7 +12,7 @@ body {
 .container {
   width: 90%;
   max-width: 1024px;
-  margin: 30px auto;
+  margin: 0 auto;
   background: #f3f3f3;
 }
 
@@ -359,7 +359,6 @@ footer img { width: 10em; }
     position: fixed;
     top: 70px;
     left: -200px;
-    z-index: 2;
     display: block;
     margin: 0;
     padding: 0;
@@ -367,6 +366,7 @@ footer img { width: 10em; }
     list-style: none;
     background: rgb(207, 138, 5, 0.3);
     transition: all 0.5s;
+    z-index: 2;
   }
 
   .burger-menu > li {
